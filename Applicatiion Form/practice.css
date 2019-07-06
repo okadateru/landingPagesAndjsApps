@@ -1,0 +1,53 @@
+@import url(sanitize.css);
+body {
+    background-color: #fafafa;
+}
+
+h1 {
+    font-size: 25px;
+}
+
+.content {
+    background-color: #fff;
+    width: 500px;
+    margin: 10px auto;
+    border: 1px solid #d1d1d1;
+    border-top-width: 20px;
+    padding: 50px;
+}
+
+input {
+    border: 0;
+    border-bottom: 1px solid #d1d1d1;
+    width: 100%;
+    font-size: 1.3em;
+    padding: 8px;
+}
+
+button {
+    width: 100%;
+    background-color: #2096f3;
+    color: #fff;
+    border: 0;
+    padding: 15px;
+    border-radius: 8px;
+    box-shadow: 10px 10px 10px rgba(0, 0, 0, .4);
+}
+
+div.control {
+    margin-bottom: 3em;
+}
+
+label {
+    display: block;
+    margin-bottom: .5em;
+}
+
+.required {
+    color: #f33;
+    font-size: .9em;
+    background-color: #fee;
+    padding: 3px;
+    font-size: bold;
+    margin-right: .3em;
+}    

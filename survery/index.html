@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Survey</title>
+
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+        integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+
+
+    <link rel="stylesheet" href="css/style.css">
+
+</head>
+
+<body>
+    <div class="container">
+        <header>
+            <div class="row">
+                <div class="col-sm-6">
+                    <h1>survey</h1>
+                </div>
+                <div class="col-sm-6 align-right">
+                    <a href="/">Return to Home</a>
+                </div>
+            </div>
+        </header>
+    </div>
+
+    <hr>
+    <div class="container">
+        <form action="https://books.h2o-space.com/html/form.php" method="POST" class="row">
+            <div class="col-sm-8 offset-sm-2">
+                <p>Thank you for using, please input your information into forms below.</p>
+
+                <div class="form-group">
+                    <label for="name">Name <span class="badge badge-danger">required</span></label>
+                    <input type="text" id="name" name="name" class="form-control" placeholder="Example: John Max">
+                </div>
+                <div class="form-group">
+                    <label for="occupation">Occupation<span class="badge badge-success">optional</span></label>
+                    <select id="occupation" name="occupation" class="form-control" size="2" multiple>
+                        <option value="Sales">Sales</option>>
+                        <option value="Marketing">Marketing</option>>
+                        <option value="Student">Student</option>>
+                    </select>
+                </div>
+                <div class="form-group">
+                    <labe>Content you are looking for</label>
+                        <div class="checkbox">
+                            <label>
+                                <input type="checkbox" name="q1" value="HTML">HTML
+                            </label>
+                        </div>
+                        <div class="checkbox">
+                            <label>
+                                <input type="checkbox" name="q1" value="CSS">CSS
+                            </label>
+                        </div>
+                        <div class="checkbox">
+                            <label>
+                                <input type="checkbox" name="q1" value="JavaScript">JavaScript
+                            </label>
+                        </div>
+                </div>
+
+                <div class="form-group">
+                    <labe>How much did you understand?</label>
+                        <div>
+                            <label class="radio-inline">
+                                <input type="radio" name="q2" value="1">Very well
+                            </label>
+                        
+                            <label class="radio-inline">
+                                    <input type="radio" name="q2" value="2">well 
+                                </label>
+                            <label class="radio-inline">
+                                    <input type="radio" name="q2" value="3">
+                                    Soso 
+                            </label>
+                            <label class="radio-inline">
+                                    <input type="radio" name="q2" value="4">Not so much 
+                            </label>
+                            <label class="radio-inline">
+                                    <input type="radio" name="q2" value="5" checked>No answer
+                            </label>
+                         </div>
+                </div>
+
+                <div class="form-group">
+                    <label for="message">Your Opinion</label>
+                    <textarea name="message" rows="5" class="form-control"></textarea>
+                </div>
+                <button type="submit" class="btn btn-primary">Submit</button>
+            </div>
+        </form>
+    </div>
+
+
+    <hr>
+
+    <div class="container">
+        <footer>
+            <p>&copy;OKD</p>
+
+        </footer>
+    </div>
+</body>
+
+</html>
