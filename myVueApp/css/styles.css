@@ -36,4 +36,10 @@ body {
 #app li > span.done {
   text-decoration: line-through;
   color: #bbb;
-} 
+}
+
+.info {
+  color: #bbb;
+  font-size: 12px;
+  font-weight: normal;
+}
